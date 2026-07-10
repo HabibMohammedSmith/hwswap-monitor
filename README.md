@@ -29,3 +29,21 @@ The application only monitors publicly available submissions and sends notificat
 ## Status
 
 Early development. API access approval pending.
+
+
+## Reddit API Usage
+
+This application uses Reddit's Data API through the PRAW Python library.
+
+API usage is limited to:
+- Reading new submissions from r/hardwareswap
+- Matching posts against user-configured keywords
+- Sending notifications to the application owner
+
+The application does not:
+- Submit posts or comments
+- Vote
+- Send messages
+- Moderate content
+- Access private communities
+- Share or redistribute Reddit data
