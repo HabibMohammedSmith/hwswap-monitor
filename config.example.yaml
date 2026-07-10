@@ -1,0 +1,17 @@
+reddit:
+  client_id: "YOUR_REDDIT_CLIENT_ID"
+  client_secret: "YOUR_REDDIT_CLIENT_SECRET"
+  username: "YOUR_REDDIT_USERNAME"
+  password: "YOUR_REDDIT_PASSWORD"
+  user_agent: "hwswap-monitor/1.0 by YOUR_REDDIT_USERNAME"
+
+monitor:
+  subreddit: "hardwareswap"
+  keywords:
+    - "4090"
+    - "5090"
+    - "9800X3D"
+
+pushover:
+  app_token: "YOUR_PUSHOVER_APP_TOKEN"
+  user_key: "YOUR_PUSHOVER_USER_KEY"
