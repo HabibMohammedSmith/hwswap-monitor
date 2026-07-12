@@ -2,6 +2,10 @@
 
 A personal Python application that monitors Reddit's r/hardwareswap subreddit for hardware-related keywords and sends notifications when matching posts appear.
 
+## Purpose
+
+This project is a personal-use notification tool. It helps me discover relevant hardware listings more quickly by monitoring new subreddit submissions and alerting me when posts match user-configured keywords.
+
 
 ## Privacy and Usage
 
@@ -15,12 +19,9 @@ This application is:
 
 The application only monitors publicly available submissions and sends notifications to the owner of the application.
 
+Notifications contain links to the original Reddit posts rather than reproducing Reddit content.
+
 The application is intended to reduce repetitive manual checking of new subreddit posts by notifying the user when relevant listings appear.
-
-
-## Purpose
-
-This project is a personal-use notification tool. It helps me discover relevant hardware listings more quickly by monitoring new subreddit submissions and alerting me when posts match my configured interests.
 
 
 ## Features
@@ -42,10 +43,11 @@ Early development. API access approval pending.
 This application uses Reddit's Data API through the PRAW Python library.
 
 API usage is limited to:
+
 - Reading new submissions from r/hardwareswap
-- Following notification, the application directs the user back to the original Reddit submission.
 - Matching posts against user-configured keywords
 - Sending notifications to the application owner
+- Directing the user back to the original Reddit submission
 
 **The application does NOT**:
 - Submit posts or comments
